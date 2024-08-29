@@ -1,0 +1,42 @@
+# Archivos de Python
+*.pyc
+__pycache__/
+
+# Archivos de entorno
+.env
+
+# Archivos de configuración de la base de datos
+db.sqlite3
+
+# Archivos y carpetas de Django
+/static/
+media/
+
+# Archivos y carpetas de migraciones de Django
+*/migrations/
+*.sqlite3
+
+# Archivos de configuración de PyCharm
+.idea/
+
+# Entorno virtual
+grupo5/
+
+# Archivos de log
+*.log
+
+# Archivos de caché
+.cache
+.DS_Store
+
+# Archivos de cobertura de pruebas
+htmlcov/
+coverage.xml
+*.cover
+
+# Archivos de editor
+.vscode/
+*.swp
+
+# Archivos de configuración de despliegue
+*.local
