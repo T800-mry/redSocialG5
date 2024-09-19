@@ -1,18 +1,19 @@
 {% extends "base.html" %}
+{% load static %}
 
 
 {% block navbar %}
-    {% include 'components/navbar.html' %}
+    {% include "components/navbar.html" %}
 {% endblock navbar %}
 
 
 {% block left_sidebar %}
-    
+    {% include "components/sidebars/left/sidebar.html" %}
 {% endblock left_sidebar %}
 
 
 {% block content %}
-    <p class="text-rose-400">test</p>
+    
 {% endblock content %}
 
     
